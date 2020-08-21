@@ -1,6 +1,6 @@
 import React from 'react'
 import data from './data'
-import './App.css';
+import classes from "./app.module.css";
 
 class App extends React.Component {
   state = {
@@ -10,16 +10,16 @@ class App extends React.Component {
   render() {
     let renderCards = null
     renderCards = (
-      <div className="CardList">
+      <div className={ classes.CardList }>
         { this.state.cards.map(c => {
           return (
-            <div className="Card" key={ c.id }>
-              <div className="Card__inner">
-                <div className="Card__front">
-                  <h2 className="Card__title">{ c.title }</h2>
+            <div className={ classes.Card } key={ c.id }>
+              <div className={ classes.Card__inner }>
+                <div className={ classes.Card__front }>
+                  <h2 className={ classes.Card__title }>{ c.title }</h2>
                 </div>
-                <div className="Card__back">
-                  <h2 className="Card__title">{ c.title }</h2>
+                <div className={ classes.Card__back }>
+                  <h2 className={ classes.Card__title }>{ c.title }</h2>
                 </div>
               </div>
             </div>
