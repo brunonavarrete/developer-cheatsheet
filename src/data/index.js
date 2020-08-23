@@ -109,8 +109,21 @@ const data = [
 	},
 	{
 		id: 12,
-		title: 'Tacked templates'
-	}
+		title: 'Tagged templates'
+	},
+	{
+		id: 13,
+		title: 'CSS Modules',
+		goodToKnow: 'Allow the use of CSS classes as JS modules to use inside a component'
+	},
+	{
+		id: 14,
+		title: 'Styled components'
+	},
+	{
+		id: 15,
+		title: 'Two-way binding'
+	},
 ]
 
 export default data
