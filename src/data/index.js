@@ -109,20 +109,24 @@ const data = [
 	},
 	{
 		id: 12,
-		title: 'Tagged templates'
+		title: 'Tagged templates',
+		tags: []
 	},
 	{
 		id: 13,
 		title: 'CSS Modules',
-		goodToKnow: 'Allow the use of CSS classes as JS modules to use inside a component'
+		goodToKnow: 'Allow the use of CSS classes as JS modules to use inside a component',
+		tags: []
 	},
 	{
 		id: 14,
-		title: 'Styled components'
+		title: 'Styled components',
+		tags: []
 	},
 	{
 		id: 15,
-		title: 'Two-way binding'
+		title: 'Two-way binding',
+		tags: []
 	},
 ]
 
